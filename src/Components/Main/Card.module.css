@@ -1,0 +1,17 @@
+.card {
+  background-color: #f5d4b5;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 5%;
+  padding: 25px;
+}
+.nameRu {
+  width: 200px;
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: translateY(-22px);
+  transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
